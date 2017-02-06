@@ -1,7 +1,7 @@
 import smtplib
 
-from_addr = 'neelam11297@gmail.com'
-to_addr = 'neelamsamtani@outlook.com'
+from_addr = ''
+to_addr = ''
 message = """From: {} <{}>
 To: {} <{}>
 Subject: {}
@@ -15,8 +15,8 @@ msg = "Hey! Hope you have a great day!"
 message_to_send = message.format(from_name, from_addr, to_name, to_addr, subject, msg)
 
 # Credentials (if needed)
-username = 'neelam11297@gmail.com'
-password = 'uezkyfbzzrhfidru'
+username = ''
+password = ''
 
 # The actual mail send
 server = smtplib.SMTP('smtp.gmail.com:587')
